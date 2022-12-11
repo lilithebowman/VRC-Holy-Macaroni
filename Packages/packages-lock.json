@@ -96,6 +96,20 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.unity.xr.oculus.standalone": {
+      "version": "2.38.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.openvr.standalone": {
+      "version": "2.0.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.vrchat.avatars": {
       "version": "file:com.vrchat.avatars",
       "depth": 0,
@@ -119,12 +133,6 @@
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.2"
       }
-    },
-    "dev.vrlabs.av3manager": {
-      "version": "file:dev.vrlabs.av3manager",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
     },
     "vrchat.blackstartx.gesture-manager": {
       "version": "file:vrchat.blackstartx.gesture-manager",
