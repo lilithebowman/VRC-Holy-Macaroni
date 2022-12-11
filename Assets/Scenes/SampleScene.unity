@@ -571,9 +571,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: 34b1e68d9f6857348ba7be36077f9287,
         type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5827eb49e993028488636a7eafed0468, type: 2}
+    - target: {fileID: 1630794972795428178, guid: 34b1e68d9f6857348ba7be36077f9287,
+        type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 87705640ee80bff4fbc0b462931f45ed, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 34b1e68d9f6857348ba7be36077f9287,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34b1e68d9f6857348ba7be36077f9287, type: 3}
 --- !u!1 &167785838 stripped
@@ -599,7 +609,7 @@ MonoBehaviour:
   blueprintId: avtr_1bddcdb8-56d4-4718-919c-3837a5c4bfc3
   contentType: 0
   assetBundleUnityVersion: 
-  fallbackStatus: 0
+  fallbackStatus: 3
 --- !u!114 &167785840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -626,9 +636,10 @@ MonoBehaviour:
   unityVersion: 2019.4.31f1
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-  customExpressions: 0
-  expressionsMenu: {fileID: 0}
-  expressionParameters: {fileID: 0}
+  customExpressions: 1
+  expressionsMenu: {fileID: 11400000, guid: afdf1086b6401ac48a10aa7878878f02, type: 2}
+  expressionParameters: {fileID: 11400000, guid: 6b78e997ea8e43544bce462713b2d6f4,
+    type: 2}
   enableEyeLook: 0
   customEyeLookSettings:
     eyeMovement:
@@ -699,7 +710,7 @@ MonoBehaviour:
         right: {x: 0, y: 0, z: 0, w: 0}
     eyelidsSkinnedMesh: {fileID: 0}
     eyelidsBlendshapes: 
-  customizeAnimationLayers: 0
+  customizeAnimationLayers: 1
   baseAnimationLayers:
   - isEnabled: 0
     type: 0
@@ -723,9 +734,10 @@ MonoBehaviour:
     isDefault: 1
   - isEnabled: 0
     type: 5
-    animatorController: {fileID: 0}
+    animatorController: {fileID: 9100000, guid: 2f79e3a8970bbd54b87744b713fe7755,
+      type: 2}
     mask: {fileID: 0}
-    isDefault: 1
+    isDefault: 0
   specialAnimationLayers:
   - isEnabled: 0
     type: 6
@@ -743,7 +755,23 @@ MonoBehaviour:
     mask: {fileID: 0}
     isDefault: 1
   AnimationPreset: {fileID: 0}
-  animationHashSet: []
+  animationHashSet:
+  - hash: 1820812627
+    name: Wait For Ear Grab
+  - hash: 252713700
+    name: Ear Grabbed - Smile
+  - hash: -264313184
+    name: Restore Mouth Tracking
+  - hash: 1807604335
+    name: ButtonPress Blend
+  - hash: -1973777815
+    name: Wait for Button Press
+  - hash: 2144220242
+    name: Button Pressed
+  - hash: -127861973
+    name: Raymarch Off
+  - hash: 65321647
+    name: Raymarch On
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:
@@ -858,6 +886,19 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &167785841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167785838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
