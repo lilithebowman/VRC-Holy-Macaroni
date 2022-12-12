@@ -29,8 +29,8 @@ MonoBehaviour:
     valueType: 2
     saved: 1
     defaultValue: 0
-  - name: 
-    valueType: 0
+  - name: MacSpout
+    valueType: 2
     saved: 1
     defaultValue: 0
   - name: 
