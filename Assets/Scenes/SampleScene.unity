@@ -401,6 +401,10 @@ MonoBehaviour:
     name: Raymarch Off
   - hash: 65321647
     name: Raymarch On
+  - hash: -1196426811
+    name: Macaroni Spout Off
+  - hash: 334312005
+    name: Macaroni Spout On
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:
