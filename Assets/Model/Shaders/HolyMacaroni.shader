@@ -13,8 +13,9 @@ Shader "Unlit/HolyMacaroni" {
 	}
 
 	SubShader {
-		Tags { "RenderType" = "Opaque" }
+		Cull Off
 		LOD 100
+		Tags { "RenderType" = "Opaque" }
 
 		Pass {
 			CGPROGRAM
@@ -101,9 +102,13 @@ Shader "Unlit/HolyMacaroni" {
 				return dO;
 			}
 
-			fixed4 frag(v2f i) : SV_Target {
+			fixed4 frag(v2f i, float facing : VFACE) : SV_Target {
 				float2 uv = i.uv - 0.5; // uv co-ordinates
 				float3 ro = i.ro; // ray origin
+				// if front face, move ray origin to vertex pos
+				if (facing > 0) {
+					ro = i.vertex;
+				}
 				float3 rd = normalize(i.hitPos - ro); // ray distance
 
 				float d = Raymarch(ro, rd); // distance
