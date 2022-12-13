@@ -93,7 +93,7 @@ Shader "Unlit/HolyMacaroni" {
 					float3 p = ro + dO * rd;
 					dS = GetDist(p % _Tuner);
 					dO += dS;
-					if (dS < SURF_DIST || dO > MAX_DIST) {
+					if (dS % _Tuner < SURF_DIST || dO % _Tuner > MAX_DIST) {
 						break;
 					}
 				}
