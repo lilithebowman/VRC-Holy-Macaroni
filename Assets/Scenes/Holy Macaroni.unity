@@ -525,19 +525,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 167785837}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &167785842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!4 &167785842 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1122314837758968419, guid: 34b1e68d9f6857348ba7be36077f9287,
+    type: 3}
+  m_PrefabInstance: {fileID: 167785837}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167785838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 0
 --- !u!1 &262517771
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,6 +716,90 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &835262756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 167785842}
+    m_Modifications:
+    - target: {fileID: 1272373189261054631, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_Name
+      value: Lilithe CC Badge 2023
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.010000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.010000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.015325349
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0014708105
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.75730836
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6530575
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.19012745e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 6.855126e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937585778831034397, guid: 0c75398a0c2b84643a9e546968906dfd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c75398a0c2b84643a9e546968906dfd, type: 3}
 --- !u!1 &894965701
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1937585778831034397}
   m_Layer: 13
-  m_Name: Cozycon Badge Attendee
+  m_Name: Cozycon Badge Legend
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,11 +27,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 402864150049133986}
+  - {fileID: 2277177786549618084}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!1001 &152554704907694665
+--- !u!1001 &1734044584554406479
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -97,7 +97,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9d18da565a8414e42be752fba1ff19c8, type: 2}
+      objectReference: {fileID: 2100000, guid: 1cfae8db4ea5e7c4687fc1bd45048845, type: 2}
     - target: {fileID: 919132149155446097, guid: 2f51600c160cf1b40a5c5162222234c4,
         type: 3}
       propertyPath: m_Name
@@ -105,9 +105,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f51600c160cf1b40a5c5162222234c4, type: 3}
---- !u!4 &402864150049133986 stripped
+--- !u!4 &2277177786549618084 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2f51600c160cf1b40a5c5162222234c4,
     type: 3}
-  m_PrefabInstance: {fileID: 152554704907694665}
+  m_PrefabInstance: {fileID: 1734044584554406479}
   m_PrefabAsset: {fileID: 0}
